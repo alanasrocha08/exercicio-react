@@ -5,7 +5,6 @@ export default function Cabecalho() {
     <header>
       <h1>Exercício React</h1>
       <hr />
-      <Menu />
     </header>
   );
 }

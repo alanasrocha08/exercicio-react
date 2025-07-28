@@ -1,10 +1,13 @@
 import React from "react";
+import "../global.css";
+import Menu from "./Menu";
 
 export default function Conteudo() {
   return (
-    <main>
+    <main className="conteudo">
+      <Menu />
       <section>
-        <h2>Seja bem-vindo(a) aomundo do Ballet!</h2>
+        <h2>Seja bem-vindo(a) ao mundo do Ballet!</h2>
         <p>
           Explore os grandes clássicos do ballet e descubra obras que marcaram a
           história da dança.

@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
 
 const estilosRodape: CSSProperties = {
-  backgroundColor: "#222",
+  backgroundColor: "rgb(119, 10, 10)",
   textAlign: "center",
   padding: "1rem",
 };
