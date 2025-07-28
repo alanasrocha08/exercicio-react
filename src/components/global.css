@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+header {
+  background-color: #f59fe9;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+footer p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
