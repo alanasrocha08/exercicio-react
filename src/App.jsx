@@ -1,5 +1,15 @@
+import Cabecalho from "./components/Cabecalho";
+import Conteudo from "./components/Conteudo";
+import Rodape from "./components/Rodape";
+
 export default function App() {
-  // Comentario de uma linha
-  /* Comentário de múltiplas linhas */
-  return <></>;
+  return (
+    <>
+      <Cabecalho />
+
+      <Conteudo />
+
+      <Rodape />
+    </>
+  );
 }
