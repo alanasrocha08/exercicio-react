@@ -1,12 +1,17 @@
+import { Link } from "react-router-dom";
 import "../global.css";
+import Home from "./Cabecalho";
+import Gisele from "./Artigos/Giselle";
+import DomQuixote from "./Artigos/DomQuixote";
+import Cisnes from "./Artigos/Cisnes";
 
 export default function Menu() {
   return (
     <nav>
-      <a href="./App.jsx">Home</a>
-      <a href="./Artigos/Giselle.tsx">Ballet "Giselle"</a>
-      <a href="">Ballet "Dom Quixote"</a>
-      <a href="">Ballet "O Lago dos Cisnes"</a>
+      <Link to="/">Home </Link>
+      <Link to="/Giselle">Giselle </Link>
+      <Link to="/DomQuixote">DomQuixote </Link>
+      <Link to="/Cisnes">Lago dos Cisnes </Link>
     </nav>
   );
 }
