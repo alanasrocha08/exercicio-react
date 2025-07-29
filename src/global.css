@@ -29,15 +29,6 @@ footer p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-/* Container principal */
-.container {
-  display: flex;
-  gap: 2rem;
-  padding: 2rem;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 /* Menu lateral */
 nav {
   background-color: rgb(119, 10, 10);
@@ -63,21 +54,13 @@ nav a:hover {
 }
 
 /* Conteúdo principal */
-.conteudo {
-  background-color: white;
-  padding: 2rem;
-  border-radius: 10px;
-  flex: 1;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-}
 
-.conteudo h2 {
+.container h2 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 
-.conteudo p {
+.container p {
   line-height: 1.6;
   margin-bottom: 1rem;
 }
